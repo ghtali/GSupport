@@ -13,7 +13,6 @@ repositories {
 
 dependencies {
   compile 'com.google.guava:guava:18.0'
-  compile 'com.github.ghtali:GSupport:yadrone032'
 }
 
 task sourcesJar(type: Jar, dependsOn: classes) {
